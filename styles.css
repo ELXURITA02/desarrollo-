@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    width: 50%;
+}
+
+
+.profile{
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 80%;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    
+}
+
+.profile__avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+    
+}
+
+.profile__name{
+    font-size: 1.2rem;
+    text-align: left;
+    color: #333;
+    margin-top: 20px;
+}
+
+.profile__city{
+    font-size: 1rem;
+    text-align: left;
+    color: #666;
+}
+
+.profile__description{
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+    margin-top: 20px;
+}
+
+section button{
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section button:hover{
+    background-color: #0056b3;
+}
+
+section button > P{
+    font-weight: 600;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+}
+
+
